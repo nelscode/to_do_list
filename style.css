@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #2B5DC5;
+}
+
+#principal {
+    margin: 4rem auto 0 auto;
+    width: 30rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+#sectionAdicionar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+#entradaTarefas {
+    width: 19rem;
+    padding: 0.7rem;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+}
+
+#botaoAdicionar {
+    width: 7rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+    background-color: #2B5DC5;
+    cursor: pointer;    
+}
+
+#botaoAdicionar:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#listaTarefas {
+    width: 97%;
+    padding: 0.3rem;
+    margin: 0 auto;
+}
+
+.itens {
+    margin-bottom: 0.4rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight:400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+
+.mensagem-erro {
+    border: 1px solid red;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f6f6f6;
+    color: red;
+    font-weight: 500;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#botaoDeletar {
+    width: 7rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
